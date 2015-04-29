@@ -36,6 +36,12 @@ GIT
   specs:
     streamio-ffmpeg (1.0.0)
 
+GIT
+  remote: https://github.com/petrpulc/narra-youtube.git
+  revision: f79691c139d71636f8ce7d58a47b0eb537eaae01
+  specs:
+    narra-youtube (0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -381,6 +387,7 @@ DEPENDENCIES
   mongoid-tree
   narra-core!
   narra-speech!
+  narra-youtube!
   omniauth
   omniauth-github
   omniauth-google-oauth2
