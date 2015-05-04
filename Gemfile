@@ -31,7 +31,7 @@ gem 'omniauth'
 gem 'omniauth-google-oauth2'
 gem 'omniauth-github'
 gem 'rack-cors'
-gem 'narra-core', git: 'https://github.com/CAS-FAMU/narra-core.git'
+gem 'narra-core', git: 'https://github.com/petrpulc/narra-core.git'
 gem 'narra-speech', git: 'https://github.com/CAS-FAMU/narra-speech.git'
 gem 'narra-youtube', git: 'https://github.com/petrpulc/narra-youtube.git'
 gem 'rspec-rails', :group => [:test, :development]
