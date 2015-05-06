@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/petrpulc/narra-core.git
-  revision: 2bd72c9af5e595ef4cc8d1954a231ad8b371690c
+  revision: d833851757e44ffc7f7490e0aee248a8c67a2cf3
   specs:
     narra-core (0.0.1)
       aasm

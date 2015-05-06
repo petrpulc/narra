@@ -51,6 +51,10 @@ module Narra
         expose :video_proxy_lq, if: lambda { |model, options| model.type == :video && model.prepared? } do |model, options|
           model.url_video_proxy_lq
         end
+        
+        expose :video_copy, if: lambda { |model, options| !model.url_video_copy.nil? && model.prepared? } do |model, options|
+          model.url_video_copy
+        end
 
         expose :image_proxy_hq, if: lambda { |model, options| model.type == :image && model.prepared? } do |model, options|
           model.url_image_proxy_hq
